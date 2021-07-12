@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#9C6969"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Thinking_minds"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/purple_200"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Registration_form"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_marginStart="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstname"
+        android:hint="Enter Firstname"
+        android:layout_marginTop="50sp"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastname"
+        android:hint="Enter Lastname"
+        android:layout_marginTop="20sp"
+        android:textColorHint="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="Enter your Emailid"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20sp"
+        android:textColorHint="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uniname"
+        android:hint="University name"
+        android:layout_marginTop="20sp"
+        android:textColorHint="@color/black"/>
+
+    <Spinner
+        android:id="@+id/sp"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:entries="@array/spinner_items" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/city"
+        android:hint="City"
+        android:layout_marginTop="20sp"
+        android:textColorHint="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/state"
+        android:hint="State"
+        android:layout_marginTop="20sp"
+        android:textColorHint="@color/black"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:text="Submit"
+        android:onClick="Submit"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string-array name="spinner_items">
+        <item>-----select your course-----</item>
+        <item>secondary school</item>
+        <item>intermediate</item>
+        <item>graduation</item>
+    </string-array>
+    <string name="city">city</string>
+    <string name="state">state</string>
+    <string name="submit">submit</string>
+    <string name="university_name">university name</string>
+    <string name="enter_ur_mailid">enter ur mailid</string>
+    <string name="enter_lastname">enter lastname</string>
+    <string name="enter_firstname">enter firstname</string>
+    <string name="registration_form">Registration Form</string>
+    <string name="thinking_minds">THINKING MINDS</string>
+    <string name="instructions">INSTRUCTIONS</string>
+    <string name="_1_the_quiz_consists_of_10_multiple_choice_questions">1.The quiz consists of 10 multiple choice-questions</string>
+    <string name="_2_each_question_carries_score_above_the_question">2.Each question carries score above the question</string>
+    <string name="_3_total_marks_will_be_10">3.Total marks will be 10</string>
+    <string name="_4_you_are_alloted_some_time_to_complete_the_quiz">4.You are alloted some time to complete the quiz</string>
+    <string name="_5_no_negative_marks">5.no negative marks</string>
+    <string name="_6_if_you_click_on_wronganswer_you_will_get_exit_from_the_quiz_if_you_want_to_continue_click_on_next_question">6.If you click on wronganswer,you will get exit from the quiz,if you want to continue click on next question</string>
+    <string name="_7_if_you_want_to_quit_click_on_the_exit_button">7.If you want to quit click on the Exit button</string>
+    <string name="yes_i_accept_to_the_above_instructions">Yes,I accept to the above instructions</string>
+    <string name="next">Next</string>
+    <string name="Thinking_minds">Thinking_minds</string>
+    <string name="Registration_form">Registration_form</string>
+</resources>
