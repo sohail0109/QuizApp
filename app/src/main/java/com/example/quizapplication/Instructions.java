@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
-class instructions extends AppCompatActivity {
+class Instructions extends AppCompatActivity {
     TextView text;
     CheckBox yes;
 

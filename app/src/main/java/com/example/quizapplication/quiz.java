@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import java.util.Random;
 
-public class quizactivity extends AppCompatActivity {
+class quiz extends AppCompatActivity {
     Button answer1, answer2, answer3, answer4;
     TextView score, question;
     private questions mQuestions = new questions();
@@ -105,7 +105,7 @@ public class quizactivity extends AppCompatActivity {
         mAnswer = mQuestions.getCorrectAnswer(num);
     }
     private void wronganswer(){
-        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(quizactivity.this);
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(quiz.this);
         alertDialogBuilder
                 .setMessage("wrong answer")
                 .setCancelable(false)
@@ -113,7 +113,7 @@ public class quizactivity extends AppCompatActivity {
                         new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
-                                startActivity(new Intent(getApplicationContext(),quizactivity.class));
+                                startActivity(new Intent(getApplicationContext(),quiz.class));
 
                             }
                         })
